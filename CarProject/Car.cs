@@ -28,5 +28,33 @@ namespace CarProject
 
         }
 
-    }
+        public void Brake(int Amount)
+        {
+            Speed -= Amount;
+            if (Speed < 0)
+                Speed = 0;
+            Console.WriteLine($"Braking... Current speed: {Speed} km/h");
+
+         }
+
+        public void Stop()
+        {
+            Speed = 0;
+            Console.WriteLine("Car Stopped.");
+
+
+        }
+
+
+
+
+        }
+
+
+
+
+
+
+
+   
 }
