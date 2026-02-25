@@ -13,6 +13,14 @@ namespace CarProject
             myCar.Accelerate(10);
 
             Console.ReadLine();
+
+            myCar.Brake(10);
+
+            Console.ReadLine();
+
+            myCar.Stop();
+
+            Console.ReadLine();
         }
     }
 }
